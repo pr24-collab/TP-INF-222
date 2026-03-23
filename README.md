@@ -1,13 +1,13 @@
 # TP-INF-222
 # Blog API Backend
 
-## 📌 Description
+ Description
 Ce projet est une API backend développée avec Node.js et Express dans le cadre du cours INF222 (Développement Backend).  
 Elle permet de gérer un blog simple en manipulant des articles (création, lecture, modification, suppression).
 
 ---
 
-## 🚀 Technologies utilisées
+ Technologies utilisées
 - Node.js
 - Express
 - SQLite (base de données)
@@ -16,7 +16,7 @@ Elle permet de gérer un blog simple en manipulant des articles (création, lect
 
 ---
 
-## 📁 Structure du projet
+ Structure du projet
 blog_api/  
 ├── controllers/       (Logique métier)  
 ├── models/            (Base de données)  
@@ -27,7 +27,7 @@ blog_api/
 
 ---
 
-## ⚙️ Installation
+Installation
 
 1. Se placer dans le dossier du projet :
 cd blog_api
@@ -40,15 +40,15 @@ npx nodemon index.js
 
 ---
 
-## 🌐 Accès à l'application
+Accès à l'application
 - API : http://localhost:3000  
 - Swagger : http://localhost:3000/api-docs  
 
 ---
 
-## 📌 Endpoints
+Endpoints
 
-### 🔹 Créer un article
+ Créer un article
 POST /api/articles  
 
 Body JSON :
@@ -63,45 +63,45 @@ Body JSON :
 
 ---
 
-### 🔹 Lire tous les articles
+ Lire tous les articles
 GET /api/articles  
 
 ---
 
-### 🔹 Lire un article par ID
+ Lire un article par ID
 GET /api/articles/:id  
 
 ---
 
-### 🔹 Modifier un article
+ Modifier un article
 PUT /api/articles/:id  
 
 ---
 
-### 🔹 Supprimer un article
+ Supprimer un article
 DELETE /api/articles/:id  
 
 ---
 
-## 🧪 Tests
+ Tests
 - Postman  
 - Swagger UI  
 
 ---
 
-## ✅ Bonnes pratiques
+Bonnes pratiques
 - Validation des données (titre et auteur obligatoires)  
 - Utilisation des codes HTTP (200, 201, 400, 404, 500)  
 - Organisation du projet en MVC  
 
 ---
 
-## 👤 Auteur
+ Auteur
 Nom : [Ton nom]  
 Filière : [Ta filière]  
 UE : INF222  
 
 ---
 
-## 📌 Conclusion
+ Conclusion
 Ce projet m’a permis de comprendre le fonctionnement d’une API backend, la gestion des routes, l’utilisation d’une base de données ainsi que la documentation avec Swagger.
