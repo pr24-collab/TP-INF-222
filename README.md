@@ -97,9 +97,10 @@ Bonnes pratiques
 ---
 
  Auteur
-Nom : [Ton nom]  
-Filière : [Ta filière]  
+Nom : TCHINDA TANGA PRIMELLE
+Filière : INFORMATIQUE
 UE : INF222  
+URL : https://019d16d3-7110-75d6-a44d-ec2bd847b0f7.arena.site/
 
 ---
 
